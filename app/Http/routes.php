@@ -17,6 +17,6 @@ Route::get('/', function () {
 
 Route::group(['middleware' => ['api']], function () {
 
-	Route::resource('probe', 'ProbeController');
+    Route::resource('probe', 'ProbeController');
 
 });
